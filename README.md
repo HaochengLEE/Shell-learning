@@ -22,9 +22,13 @@ expr length "$string"//2
 
 ### 获取索引位置
 ```
-expr 
+expr index "$string" substr
 ```
-## 函数
+
+### 获取子串长度
+```
+expr match "$string" substr
+```
 
 ## 重定向
 
