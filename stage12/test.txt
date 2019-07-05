@@ -1,0 +1,6 @@
+total 16
+drwxr-xr-x  5 lihaocheng  staff  160  7  5 23:45 .
+drwxr-xr-x  8 lihaocheng  staff  256  7  3 00:28 ..
+-rw-r--r--@ 1 lihaocheng  staff  113  7  5 23:45 ifelse.sh
+-rw-r--r--@ 1 lihaocheng  staff  127  7  5 23:38 iffile.sh
+-rw-r--r--  1 lihaocheng  staff    0  7  5 23:45 test.txt

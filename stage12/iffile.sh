@@ -3,4 +3,6 @@
 if pwd
 then
 	echo "It worked"
+	echo "second"
+	echo "thrid"
 fi
