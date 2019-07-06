@@ -53,3 +53,34 @@ command << EOF
 ~~~
 rpm -qa | sort
 ~~~
+
+## if操作
+
+### if then
+if then类似与其他语言中的if()语句
+
+以if开头fi结尾
+```
+if pwd
+then
+	echo "It worked"
+	echo "second"
+	echo "thrid"
+fi
+```
+
+### if then else
+查找当前目录下有没有名为test的文件
+有的话输出文件存在
+没有的话创建文件
+```
+if grep test *file
+then
+	echo "file is exited"
+
+else
+	ls -al > test.txt
+	echo "file was created"
+fi
+```
+
